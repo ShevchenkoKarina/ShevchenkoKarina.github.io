@@ -1,0 +1,53 @@
+.test {
+    color: chocolate ;
+    
+}
+
+.test > form {
+    border: 7px solid #0500b8;
+    padding: 10px 20px;
+
+}
+
+ .div2 {
+    color: blueviolet;
+    
+ }
+
+ .test, .div2 {
+    display: flex;
+    justify-content: center;
+ }
+
+.LoremText {
+    font-size: medium;
+    transition: font-size 2s;
+
+}
+
+.LoremText:hover {
+    font-size: xx-large;
+
+}
+
+.task1 p:first-child{
+    color: red;
+}
+
+.task1 p:only-child{
+    color: white;
+}
+
+.task1 div:only-of-type{
+    background-color: blue;
+}
+
+
+.task1 :last-child{
+    color: blue;
+}
+
+.task2 p::selection{
+    color: orange;
+    background-color: rgb(9, 9, 9);
+}
